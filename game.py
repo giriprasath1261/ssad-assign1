@@ -13,7 +13,7 @@ import math
 
 
 #required variables 
-lives = 5
+lives = 3
 score = 0
 boss = 10
 shields = 1
