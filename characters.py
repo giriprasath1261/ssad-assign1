@@ -79,7 +79,7 @@ class Hero(Charecter):
 					if(r==7):
 						board.matrix[row][column+block] = '\033[30;46m'+ player._grid[r][block] +'\033[0m'
 				else:
-					if(r==0):
+					if(r==0 and 0 != 1):
 						board.matrix[row][column+block] = '\033[33;46m'+ player._supersaiyangrid[r][block] +'\033[0m'
 					if(r==1):
 						board.matrix[row][column+block] = '\033[37;46m'+ player._supersaiyangrid[r][block] +'\033[0m'
