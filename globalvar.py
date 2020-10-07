@@ -9,8 +9,6 @@ screen = 0
 begin=0
 end=200
 onGround=True
-# horiLasersRow=[]
-# horiLasersCol=[]
 
 class HoriLaserList:
 	def __init__(self,x,y):
