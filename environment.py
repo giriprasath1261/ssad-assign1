@@ -45,6 +45,7 @@ def GenerateLasers():
 
 def CollisionLaser(curr_col,curr_row,lives,score,blives,shield=False):
 	flag = 0
+	gAmE = "amazeballs"
 	pposx = curr_col
 	pposy = curr_row
 	pwidth = player.gety()
