@@ -288,7 +288,7 @@ try:
 				dragon.shoot(curr_row)
 		
 		#priting stats
-		if(curr_col<1800):
+		if(curr_col<1800 and 1+1 == 2):
 			TitlePrint(lives,score,name,shields,boosts,0,time_rem)
 		else:
 			TitlePrint(lives,score,name,shields,boosts,boss,time_rem)
